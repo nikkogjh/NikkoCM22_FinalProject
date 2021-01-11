@@ -5,17 +5,17 @@ A simple random exercise generator program as a final project for CM22.
 
 INFO
 
-Author:             Nikko Gabriel J. Hismaña
+AUTHOR:             Nikko Gabriel J. Hismaña
 
-My Hobby/Interest:  Working Out
+MY HOBBY:  Working Out
 
-Program Name:       Body Part Exercise Generator (BPEG)
+PROGRAM NAME:       Body Part Exercise Generator (BPEG)
 
-Program Type:       Randomized Body Part-Specific Workout Plan Generator
+PROGRAM TYPE:       Randomized Body Part-Specific Workout Plan Generator
 
-Brief Description:  Creates a randomized list of workouts based on the body parts you wish to exercise.
+BRIEF DESCRIPTION:  Creates a randomized list of workouts based on the body parts you wish to exercise.
 
-Java Version:       11.0.9
+JAVA VERSION:       11.0.9
 
 ###########################
 
@@ -76,20 +76,20 @@ BAD PRACTICES / AREAS FOR IMPROVEMENT
 
 ABANDONED FEATURES:
 
--Muscle Groups Instead of Body Parts (i.e. triceps, biceps, glutes, lower abdomen, upper abdomen) ##
-  *too many muscle groups and duplicate workouts*
+- *Muscle Groups Instead of Body Parts (i.e. triceps, biceps, glutes, lower abdomen, upper abdomen)
+--- too many muscle groups and duplicate workouts
   
--Interactive GUI - Click On Body Part ##
-  *too difficult*
+- *Interactive GUI - Click On Body Part 
+--- too difficult
   
--Select multiple body parts/muscle groups to create a workout plan, specify the number of workouts per selected body part/muscle group ##
-  *this was partially working but was too buggy and too difficult to create tests for TDD*
+- *Select multiple body parts/muscle groups to create a workout plan, specify the number of workouts per selected body part/muscle group 
+--- this was partially working but was too buggy and too difficult to create tests for TDD
   
--Close Program / Run Again / Randomize Again prompt ##
-  *partially working but had too many bugs and possible errors to catch, also difficult to test*
+- *Close Program / Run Again / Randomize Again prompt 
+--- partially working but had too many bugs and possible errors to catch, also difficult to test
   
--File Handling - Create and Save Profile, Add/Remove workouts ##
-  *too advance for my current skill level*
+- *File Handling - Create and Save Profile, Add/Remove workouts 
+--- too advance for my current skill level
   
  ##########################
  
