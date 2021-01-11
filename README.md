@@ -2,6 +2,7 @@
 A simple random exercise generator program as a final project for CM22.
 
 #########################
+
 INFO
 
 Author:             Nikko Gabriel J. Hismaña
@@ -17,6 +18,7 @@ Brief Description:  Creates a randomized list of workouts based on the body part
 Java Version:       11.0.9
 
 ###########################
+
 JAVA DESIGN PATTERNS
 
 CREATIONAL PATTERN: SINGLETON
@@ -29,6 +31,7 @@ BEHAVIORAL PATTERN: COMMAND & ITERATOR
 -The program has a limited function which basically takes user input then executes methods, and these methods are mostly traversal-based due to the prominent use of ArrayLists.
 
 ###########################
+
 TDD
 
 The program was developed with both TDD (test -> fail -> code -> test -> pass -> refactor) and Incremental Development (write code ->  run with test variables -> then writemore code). Classes and methods features were tested using JUnit 4. I was able to make 4 tests:
@@ -38,6 +41,7 @@ The program was developed with both TDD (test -> fail -> code -> test -> pass ->
 4) Test 4 was to confirm that the randomizer results were indeed non-repeating/randomized
 
 ###########################
+
 BEST PRACTICES
 
 1) Source File length is relatively short, even with its limited features. Redundant code is minimized.
@@ -57,6 +61,7 @@ BEST PRACTICES
 8) Overall, the code was easy-to-follow and had sufficient comments and annotations for checking and future developments.
 
 ###########################
+
 BAD PRACTICES / AREAS FOR IMPROVEMENT
 
 1) I was unable to practice abstraction and encapsulation (the use of private classes). When I was initially making the code using incremental development (run the program with a test variable each time I add a code), I was able to use private classes to hide certain details. But when I developed tests using JUnit, it was unable to do tests unless I changed some classes to public-static.
@@ -68,6 +73,7 @@ BAD PRACTICES / AREAS FOR IMPROVEMENT
 4) Too reliant with the IDE. Intellij IDE provides a lot of good tips on how to streamline the code --- removing redundancies and unused objects/instances. However, I feel like there were some IDE-suggested fixes that I applied without understanding how their recommended changes worked.
 
 ###########################
+
 ABANDONED FEATURES:
 
 -Muscle Groups Instead of Body Parts (i.e. triceps, biceps, glutes, lower abdomen, upper abdomen) ##
@@ -86,5 +92,7 @@ ABANDONED FEATURES:
   *too advance for my current skill level*
   
  ##########################
+ 
  BUGS:
+ 
  -Most stable build, no bugs and errors due to error-catchers and limited features (and limiting input)
