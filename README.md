@@ -76,19 +76,19 @@ BAD PRACTICES / AREAS FOR IMPROVEMENT
 
 ABANDONED FEATURES:
 
-- *Muscle Groups Instead of Body Parts (i.e. triceps, biceps, glutes, lower abdomen, upper abdomen)
+- Muscle Groups Instead of Body Parts (i.e. triceps, biceps, glutes, lower abdomen, upper abdomen)
 --- too many muscle groups and duplicate workouts
   
-- *Interactive GUI - Click On Body Part 
+- Interactive GUI - Click On Body Part 
 --- too difficult
   
-- *Select multiple body parts/muscle groups to create a workout plan, specify the number of workouts per selected body part/muscle group 
+- Select multiple body parts/muscle groups to create a workout plan, specify the number of workouts per selected body part/muscle group 
 --- this was partially working but was too buggy and too difficult to create tests for TDD
   
-- *Close Program / Run Again / Randomize Again prompt 
+- Close Program / Run Again / Randomize Again prompt 
 --- partially working but had too many bugs and possible errors to catch, also difficult to test
   
-- *File Handling - Create and Save Profile, Add/Remove workouts 
+- File Handling - Create and Save Profile, Add/Remove workouts 
 --- too advance for my current skill level
   
  ##########################
